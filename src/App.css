@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+  background-image: url("/src/access/bgr.jpg");
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-width: 375px;
+  max-width: 700px;
+  margin: auto;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+  .header{
+    color: #2a060d;
+    padding-top: 33%;
+    font-size: 46px;
+   
+    
+  }
+  .description{
+    margin: 6% 0;
+    
+  }
+  .horizontal{
+    display: flex;
+    height: 2px;
+    width: 21%;
+    color: black;
+    background: black;
+    margin: auto;
+  }
+  #invation{
+    font-size: 17px;
+  }
+  .description1{
+    font-size: 15px;
+  }
+  .thank{
+    font-family: cursive;
+    font-size: 18px;
+  }
+  .aa{
+    margin-bottom: 5px;
+  }
+  .abc{display: none;}
+  .propup{
+    padding-top: 50%;
+  }
+  @media only screen and (max-width: 600px) {
+    .header{
+      color: #2a060d;
+      padding-top: 33%;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    #invation{
+      font-size: 13px;
+    }
+    .description1{
+      font-size: 12px;
+    }
+    .abc{display: block;}
+    .thank{
+      font-family: cursive;
+      font-size: 14px;
+    }
+  }
