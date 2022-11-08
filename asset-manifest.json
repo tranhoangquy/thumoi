@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/thumoi/static/css/main.6991582a.css",
+    "main.js": "/thumoi/static/js/main.fc4d2fd0.js",
+    "static/js/787.a916c173.chunk.js": "/thumoi/static/js/787.a916c173.chunk.js",
+    "static/media/bgr.jpg": "/thumoi/static/media/bgr.ded8dd12d0c9aba10307.jpg",
+    "index.html": "/thumoi/index.html",
+    "main.6991582a.css.map": "/thumoi/static/css/main.6991582a.css.map",
+    "main.fc4d2fd0.js.map": "/thumoi/static/js/main.fc4d2fd0.js.map",
+    "787.a916c173.chunk.js.map": "/thumoi/static/js/787.a916c173.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6991582a.css",
+    "static/js/main.fc4d2fd0.js"
+  ]
+}
