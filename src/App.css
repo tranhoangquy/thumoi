@@ -41,62 +41,94 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
-  .header{
+
+.header {
+  color: #2a060d;
+  padding-top: 33%;
+  font-size: 46px;
+
+
+}
+
+.description {
+  margin: 6% 0;
+
+}
+
+.horizontal {
+  display: flex;
+  height: 2px;
+  width: 21%;
+  color: black;
+  background: black;
+  margin: auto;
+}
+
+#invation {
+  font-size: 17px;
+}
+
+.description1 {
+  font-size: 15px;
+}
+
+.thank {
+  font-family: cursive;
+  font-size: 18px;
+}
+
+.aa {
+  margin-bottom: 5px;
+}
+
+.abc {
+  display: none;
+}
+
+.propup {
+  padding-top: 50%;
+}
+
+input[type="text" i] {
+  min-width: 228px;
+  padding: 5px;
+
+}
+#btn{
+  margin-top: 15px;
+    padding: 13px;
+    background: #235cc3d4;
+    border: none;
+    border-radius: 9px;
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+  .header {
     color: #2a060d;
     padding-top: 33%;
-    font-size: 46px;
-   
-    
+    font-size: 20px;
+    font-weight: bold;
   }
-  .description{
-    margin: 6% 0;
-    
+
+  #invation {
+    font-size: 13px;
   }
-  .horizontal{
-    display: flex;
-    height: 2px;
-    width: 21%;
-    color: black;
-    background: black;
-    margin: auto;
+
+  .description1 {
+    font-size: 12px;
   }
-  #invation{
-    font-size: 17px;
+
+  .abc {
+    display: block;
   }
-  .description1{
-    font-size: 15px;
-  }
-  .thank{
+
+  .thank {
     font-family: cursive;
-    font-size: 18px;
+    font-size: 14px;
   }
-  .aa{
-    margin-bottom: 5px;
-  }
-  .abc{display: none;}
-  .propup{
-    padding-top: 50%;
-  }
-  @media only screen and (max-width: 600px) {
-    .header{
-      color: #2a060d;
-      padding-top: 33%;
-      font-size: 20px;
-      font-weight: bold;
-    }
-    #invation{
-      font-size: 13px;
-    }
-    .description1{
-      font-size: 12px;
-    }
-    .abc{display: block;}
-    .thank{
-      font-family: cursive;
-      font-size: 14px;
-    }
-  }
+}
